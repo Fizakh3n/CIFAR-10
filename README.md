@@ -1,12 +1,10 @@
-# CIFAR-10
 # CIFAR-10 Image Classification
 
-This project implements a convolutional neural network (CNN) to classify images from the CIFAR-10 dataset, achieving a baseline accuracy of around 75%. The model architecture includes convolutional layers, pooling layers, dropout, and batch normalization.
+This project implements a convolutional neural network (CNN) to classify images from the CIFAR-10 dataset.
 
-## Introduction
+## Dataset
 
-The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, with 6,000 images per class. The classes are:
-
+The CIFAR-10 dataset consists of **60,000 32x32 color images** across **10 classes**:
 - Airplane
 - Automobile
 - Bird
@@ -18,10 +16,14 @@ The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, with 6
 - Ship
 - Truck
 
-This project aims to build a CNN model that can effectively classify these images.
+The dataset is split into **50,000 training images** and **10,000 test images**.
+
+## Installation
+To run this project, you need to install the following libraries:
+--pip install tensorflow matplotlib visualkeras
 
 ## Dataset
-
 - The dataset is available directly through Keras.
 - It is divided into 50,000 training images and 10,000 test images.
 
+Feel free to copy and paste this into your README file! If you need any more changes or have other requests, just let me know. 😊
